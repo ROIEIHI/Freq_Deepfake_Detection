@@ -1,0 +1,34 @@
+XCEPTION DEEPFAKE DETECTION - EVALUATION REPORT
+Timestamp: 2026-02-17 21:17:24
+============================================================
+
+KERAS METRICS:
+  loss: 0.7427
+  accuracy: 0.8085
+  auc: 0.9276
+
+DETAILED METRICS:
+  Accuracy:    0.8085
+  Precision:   0.7298
+  Recall:      0.9747
+  F1 Score:    0.8346
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        Real       0.96      0.64      0.77     10366
+        Fake       0.73      0.97      0.83     10196
+
+    accuracy                           0.81     20562
+   macro avg       0.85      0.81      0.80     20562
+weighted avg       0.85      0.81      0.80     20562
+
+
+CONFUSION MATRIX:
+[[6686 3680]
+ [ 258 9938]]
+
+FILES SAVED:
+  - confusion_matrix.png
+  - metrics_bar_chart.png
+  - best_xception.keras
