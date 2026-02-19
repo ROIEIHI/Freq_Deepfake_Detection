@@ -1,0 +1,42 @@
+# Large data folders (FaceForensics++ dataset)
+original/
+Deepfakes/
+
+# Virtual environments
+env/
+venv/
+venv310/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training outputs (optional - uncomment to exclude)
+# xception_results_*/
+
+# Large model files (exceeds GitHub 100MB limit)
+*.keras
+*.h5
+
+# Logs
+*.log
+
+# Dataset CSVs with absolute paths may need regeneration
+# Uncomment if you want to exclude:
+# dataset_*.csv
