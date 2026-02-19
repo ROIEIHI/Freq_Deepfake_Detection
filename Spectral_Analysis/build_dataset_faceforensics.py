@@ -4,9 +4,6 @@ Adapted for FaceForensics++ directory structure with cropped faces.
 
 Usage:
 python build_dataset_faceforensics.py --data_path "D:/FF_data_HQ_vid" --compression c23 --method Deepfakes --num_samples 1000
-
-Author: Spectral Analysis Pipeline
-Date: 2026-02-03
 """
 import os
 from os.path import join, exists, basename

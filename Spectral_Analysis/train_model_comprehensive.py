@@ -4,9 +4,6 @@ Generates ROC curves, feature importance, and publication-ready visualizations.
 
 Usage:
 python train_model_comprehensive.py --dataset dataset_Deepfakes_c23.csv --output_dir results_deepfakes
-
-Author: Spectral Analysis Pipeline
-Date: 2026-02-03
 """
 import os
 from os.path import join
@@ -337,9 +334,9 @@ def main():
     print(f"\nOverlap check: {len(set(train_videos) & set(test_videos))} videos in both (should be 0!)")
     
     if len(set(train_videos) & set(test_videos)) > 0:
-        print("⚠️ WARNING: Video leakage detected!")
+        print("WARNING: Video leakage detected!")
     else:
-        print("✓ No video leakage - train and test are properly separated")
+        print("No video leakage - train and test are properly separated")
     
     print(f"{'='*80}\n")
     
